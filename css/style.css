@@ -24,14 +24,84 @@ li{
     height: 600px;
     border: 1px solid black;
 }
-.parte-1 h1{
-
-}
 .parte-2{
+    display: flex;
+    justify-content: center;
     width: 99.9%;
     height: 600px;
     border: 1px solid black;
 }
+.card-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: 1px solid rgb(0, 4, 245);
+    height: max-content;
+    width: 100%;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    border: 0px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    height: 410px;
+    width: 390px;
+    padding: 10px;   
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 390px;
+    position: absolute;
+    
+}
+.img-card{
+    width: 370px;
+    height: 390px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.img-card img{
+    width: 370px;
+    height: 390px;
+    filter: brightness(50%);
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid white;
+    padding: 20px 30px 20px 30px;
+    height: 350px;
+    width: 310px;
+    transition: all 0.5s ease-in-out;
+}
+.card-box:hover{
+    background-color: rgba(78, 78, 255, 0.253);
+}
+
+.card-box img{
+    border: 1px white;
+    width: 70px;
+    height: 70px;
+}
+.card-box h3{
+    color: white;
+
+}
+.card-box p{
+    color: white;
+}
+.card-box a{
+    color:  white;
+}
+
+
+
+
 .parte-3{
     width: 99.9%;
     height: 600px;
