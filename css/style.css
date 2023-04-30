@@ -6,11 +6,43 @@ body{
     height: max-content;
 }
 header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid rgb(255, 0, 0);
     width: 99.9%;
     height: 100px;
 }
-.container{
+ul{
+    display: flex;
+}
+li{
+    margin: 20px;
+}
+.parte-1{
+    width: 99.9%;
+    height: 600px;
+    border: 1px solid black;
+}
+.parte-1 h1{
+
+}
+.parte-2{
+    width: 99.9%;
+    height: 600px;
+    border: 1px solid black;
+}
+.parte-3{
+    width: 99.9%;
+    height: 600px;
+    border: 1px solid black;
+}
+.parte-4{
+    width: 99.9%;
+    height: 600px;
+    border: 1px solid black;
+}
+.parte-5{
     width: 99.9%;
     height: 600px;
     border: 1px solid black;
