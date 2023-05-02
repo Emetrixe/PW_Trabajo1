@@ -269,9 +269,50 @@ li{
 
 
 .parte-3{
-    width: 99.9%;
-    height: 600px;
-    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+    border: 1px solid rgb(7, 7, 7);
+    text-align:center;
+}
+
+#hero {
+    min-height: 100vh; /*ocupa el alto completo de la pantalla*/
+    position:relative;
+}
+.video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #141425;
+    opacity: 0.7;
+}
+.mostrar {
+    position: relative;
+    z-index: 2;
+}
+.txtC {
+    color: rgb(255, 255, 255);
+}
+#colorBorde {
+    position: relative;
+    border: 1px solid rgb(31, 22, 151);
+    text-align:center;
+    border-radius: 5%;
+}
+.imag {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
 }
 .parte-4{
     width: 99.9%;
