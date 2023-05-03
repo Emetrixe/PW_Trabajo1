@@ -177,7 +177,11 @@ header {
     border: none;
     padding: 20px 30px 20px 30px;
     height: 600px;
+<<<<<<< HEAD
+    width: 380px;
+=======
     width: 370px;
+>>>>>>> edc21d61dfd1793d8361b3f019f27ac3b01891bd
     transition: all 0.5s ease-in-out;
     border-radius: 10px;
     top: 0px;
@@ -355,14 +359,19 @@ header {
 
 .parte-3{
     width: 100%;
-    height: 700px;
+    height: 1000px;
     border: 1px solid rgb(7, 7, 7);
-    text-align:center;
+    
+}
+
+.card-body a{
+    text-decoration: none;
 }
 
 #hero {
     min-height: 100vh; /*ocupa el alto completo de la pantalla*/
     position:relative;
+    text-align: center;
 }
 .video {
     position:absolute;
@@ -399,9 +408,22 @@ header {
     height: 50px;
     filter: invert(100%);
 }
+<<<<<<< HEAD
 
 
 
+=======
+.hero2 {
+    
+    margin-left: 50px;
+}
+.hero3 {
+    margin-left: -90px;
+}
+.az {
+    color: #0C5ADB;
+}
+>>>>>>> 1631b202b8d93acba1da55f49fe946784037a6ac
 .parte-4{
     display: flex;
     justify-content: center;
