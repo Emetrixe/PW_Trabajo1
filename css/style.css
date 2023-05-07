@@ -473,8 +473,23 @@ header {
 }
 
 
+
+
+
 .parte-5{
     width: 99.9%;
     height: 600px;
     border: 0px solid black;
+}
+
+
+
+
+
+
+
+.parte-5 .container-p5{
+    column-count: 4;
+    padding: 100px;
+    background-color: white;
 }
