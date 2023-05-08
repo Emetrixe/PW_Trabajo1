@@ -888,6 +888,14 @@ body{
 
 .card-body .card-title a{
     color: rgb(8, 67, 126);
+    text-align: start;
+}
+.sub-i{
+    font-size: 20px;
+    
+}
+.sub-i a{
+    color: #184896;
 }
 
 .pre-fo{
