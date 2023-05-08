@@ -476,20 +476,246 @@ header {
 
 
 
+
+
 .parte-5{
-    width: 99.9%;
-    height: 600px;
-    border: 0px solid black;
+    margin: auto;
+}
+
+.parte-5 .parte5-1{
+  width: 100%;
+  border: 5px #0C5ADB solid;
+  padding: 100px 200px;
+  display: flex;
+  background: #0C5ADB;
+
+}
+
+.parte-5 .parte5-1-1{
+    color: #ffffff;
+}
+
+.parte-5 .btn-outline-primary{
+    background-color: #ffffff;
+}
+
+.parte-5 .parte5-1-2{
+    padding-left: 40%;
+    padding-top: 50px;
+    color: #ffffff;
+    
 }
 
 
 
 
 
-
-
-.parte-5 .container-p5{
+.parte5-2 {
+    margin: 50px 200px;
+    margin-top: -70px;
     column-count: 4;
-    padding: 100px;
-    background-color: white;
+    background-color: #f2eded;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(133, 133, 147);
+    margin-bottom: 100px;
 }
+
+.parte5-2 .parte5-2-1{
+    margin-left: 50px;
+
+}
+
+.parte5-2 .parte5-2-1 .texto-pt5{
+    color: rgb(10, 93, 210);
+}
+
+
+
+
+
+.parte-5 .tes{
+    color: #2b73e0;
+    text-align: center;
+}
+
+.parte-5 .pt5-tit{
+    text-align: center;
+    font-weight: 650;
+}
+
+.parte-5 .rang {
+    height: 5px;
+    width: 90px;
+    background: #aec6ef;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+   
+}
+
+.parte5-3 .parte5-3-1{
+    margin: 20px 90px;
+}
+
+
+.parte5-3 .parte5-3-2{
+    margin: 1px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.parte5-3 .col{
+    padding: 20px;
+}
+.parte5-3 .card-body{
+    padding: 10px;
+}
+
+.estr-nom{
+    padding: 20px;
+    text-align: start;
+}
+.img-nombre{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.parte5-3 .img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: start;
+    margin: 20px;
+    
+}
+.parte5-3 p h5{
+    display: flex;
+}
+
+.prof{
+    color: #2673ee;
+    
+}
+
+.formul{
+    background-color: #0C5ADB;
+    padding: 90px 150px;
+
+}
+
+.tit{
+    text-align: center;
+    color: #ffffff;
+
+}
+.tit h6{
+    margin-bottom: 20px;
+}
+.caj{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.mb-3{
+    margin: 20px 100px;
+    
+}
+.form-1 .boton{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.dibu{
+    margin: 80px 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tit-ulo h5{
+    color: #2673ee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.dibu1{
+    column-count: 2;
+}
+
+.dibu1 .but-on{
+    text-align: end;
+}
+
+.bloq{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+
+.mess{
+    margin: 1px 20px;
+}
+
+.card-body .card-title a{
+    color: rgb(8, 67, 126);
+}
+
+.pre-fo{
+    text-align: center;
+    padding: 70px;
+    color: #ffffff;
+    background-color: #0C5ADB;
+    position: relative;
+}
+.sub{
+    display: flex;
+    margin: 1px 400px;
+}
+.sub .btn.btn-primary{
+    margin: 1px 20px;
+}
+.logg{
+    column-count: 2;
+}
+.enlaces{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.fot-pri{
+    background-color: #002560;
+    color: #ffffff;
+    padding: 20px 200px;
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+}
+
+.iconos img{
+    width: 40px ;
+    height: 40px;
+}
+.hijos{
+    width: 500px;
+    height: 500px;
+}
+.hj img{
+    width: 80px;
+    height: 80px;
+}
+
+.fot-sec{
+    background-color: #002560;
+    color: #ffffff;
+    padding: 20px 200px;
+    column-count: 4;
+}
+
+
+
